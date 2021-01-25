@@ -93,7 +93,7 @@ nav > #rightsideNav {
    font-size: 1.5rem;
    font-family: garamond;
    text-shadow: 1px 1px black;
-   
+   margin-left: 5vw;
    position: absolute;
    transform: translate(-50%, -50%);
    left: 31vw;
