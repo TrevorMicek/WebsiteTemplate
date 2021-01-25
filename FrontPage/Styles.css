@@ -1,5 +1,6 @@
  body {
      margin: 0;
+     text-size-adjust: none;
  }
 header {
      padding: 10vh auto;
