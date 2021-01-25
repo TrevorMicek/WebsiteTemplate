@@ -1,1 +1,2 @@
 # WebsiteTemplate
+Hello! This is my first hand coded template for my small business. I will be using this as a framework for all other websites I make. It's very clean and sleek design as well as a clean and DRY codebase. It's created and perfected for small businesses; this template can easily fit into any small businesses niche and be a step up from the competition. I ensured 0 bugs and 100% optimization and responsiveness.
