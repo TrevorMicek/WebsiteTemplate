@@ -267,7 +267,8 @@ text-align: center;
      left: 47vw;
  }
   #firstSectionGraphic {
-    
+      max-width: vw;
+      height: auto;
       left: 4vw;
   }
   #secondSection > div {
