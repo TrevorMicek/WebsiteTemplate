@@ -1,298 +1,298 @@
- body {
-     margin: 0;
-     
- }
+body {
+    margin: 0;
+    
+}
 header {
-     padding: 10vh auto;
-     box-shadow: 2px 2px gray;
-     
- }
+    padding: 10vh auto;
+    box-shadow: 2px 2px gray;
+    
+}
 nav {
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0px .5px black;
-    position: relative;
-    top: 0;
-    min-height: 10vh;
+   display: flex;
+   justify-content: space-between;
+   box-shadow: 0px .5px black;
+   position: relative;
+   top: 0;
+   min-height: 10vh;
 
 }
- nav > #leftsideNav {
-    
-    margin: 5vh 1vw 3vh 2vw;
-    font-size: .9rem;
-    max-width: 15vw;
-    
+nav > #leftsideNav {
+   
+   margin: 5vh 1vw 3vh 2vw;
+   font-size: .9rem;
+   max-width: 15vw;
+   
 }
 nav > #rightsideNav {
-    font-size: .9rem;
-    text-align: justify;
-   
-    position: relative;
-    right: 1vw;
-    margin: 0vh 1vw 0 4vw;
+   font-size: .9rem;
+   text-align: justify;
+  
+   position: relative;
+   right: 1vw;
+   margin: 0vh 1vw 0 4vw;
 }
 #navList > li {
-    text-align: center;
-    display: inline-block;
-    border: 1px solid black;
-    min-width: 10vw;
-    padding: 2vh 1vw;
-    margin: auto .5vw;
-    position: relative;
-    top: 1vh;
-    box-shadow: 2.5px 5px lightgray;
+   text-align: center;
+   display: inline-block;
+   border: 1px solid black;
+   min-width: 10vw;
+   padding: 2vh 1vw;
+   margin: auto .5vw;
+   position: relative;
+   top: 1vh;
+   box-shadow: 2.5px 5px lightgray;
 }
 #navList > li:active {
-    top: 3vh;
-    left: .25vw;
-    box-shadow: none;
+   top: 3vh;
+   left: .25vw;
+   box-shadow: none;
 }
 #navList > li > a {
-    text-decoration: none;
-    color: black;
-    text-shadow: 1px 1px lightgray;
+   text-decoration: none;
+   color: black;
+   text-shadow: 1px 1px lightgray;
 }
 #navList {
-    list-style-type: none;
-  
-    
-    min-height: 8vh;
-    padding: 0;
+   list-style-type: none;
+ 
+   
+   min-height: 8vh;
+   padding: 0;
 }
 #headerOverlay {
-    background-color: rgba(0,0,0,.25);
-    min-height: 50vh;
-   
-   top: 0;
-   left: 0;
+   background-color: rgba(0,0,0,.25);
+   min-height: 50vh;
+  
+  top: 0;
+  left: 0;
 
-    z-index: 2;
+   z-index: 2;
 }
 #headerPictureWrapper {
-    background-image: linear-gradient(to top left, #990033, #006666 );
-    min-height: 50vh;
+   background-image: linear-gradient(to top left, #990033, #006666 );
+   min-height: 50vh;
 
-    z-index: 1;
+   z-index: 1;
 }
 #headerTitle {
-    color: white;
-    display: inline;
-    font-size: 1.75em;
-    font-family: garamond;
-    text-shadow: 1px 1px black;
-    min-width: 60vw;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 35vw;
-    top: 25.5vh;
-    z-index: 3;
+   color: white;
+   display: inline;
+   font-size: 1.75em;
+   font-family: garamond;
+   text-shadow: 1px 1px black;
+   min-width: 60vw;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   left: 35vw;
+   top: 25.5vh;
+   z-index: 3;
 }
 #headerText {
-    color: white;
-    display: inline;
-    font-size: 1.5rem;
-    font-family: garamond;
-    text-shadow: 1px 1px black;
-    
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 31vw;
- 
-    overflow: hidden;
-    top: 40vh;
-    white-space: nowrap;
-    
-    z-index: 3;
+   color: white;
+   display: inline;
+   font-size: 1.5rem;
+   font-family: garamond;
+   text-shadow: 1px 1px black;
+   
+   position: absolute;
+   transform: translate(-50%, -50%);
+   left: 31vw;
+
+   overflow: hidden;
+   top: 40vh;
+   white-space: nowrap;
+   
+   z-index: 3;
 }
 main {
-    min-height: 100vh;
-    margin-bottom: 12.5vh;
-    
+   min-height: 100vh;
+   margin-bottom: 12.5vh;
+   
 }
 #firstSection {
-   border-bottom: 3px solid lightgray;
-   box-shadow: 0px 2px gray;
-    min-height: 50vh;
+  border-bottom: 3px solid lightgray;
+  box-shadow: 0px 2px gray;
+   min-height: 50vh;
 }
 #firstSectionGraphic {
-    position: relative;
-    top: 2vh;
-    left: 10vw;
+   position: relative;
+   top: 2vh;
+   left: 10vw;
 }
 #firstSectionTitle {
 display: flex;
 justify-content: space-between;
 }
 #firstSectionTitle > h3 {
-    font-size: 1.75rem;
-    top: 9vh;
-    left: 20vw;
-    position: relative;
-    transform: translate(-50%, -50%);
-    
-    max-width: 50vw;
-    text-shadow: 1px 1px lightgray;
+   font-size: 1.75rem;
+   top: 9vh;
+   left: 20vw;
+   position: relative;
+   transform: translate(-50%, -50%);
+   
+   max-width: 50vw;
+   text-shadow: 1px 1px lightgray;
 }
 @media only screen and (min-width: 1030px) {
-    #firstSectionTitle > h3 {
-        left: 0vw;
-    }
+   #firstSectionTitle > h3 {
+       left: 0vw;
+   }
+}
 
 #firstSectionText {
-  
-    text-shadow: 1px 1px lightgray;
-    font-size: 1.25rem;
-    line-height: 3.5vh;
-   margin: 0 12.5vw;
+ 
+   text-shadow: 1px 1px lightgray;
+   font-size: 1.25rem;
+   line-height: 3.5vh;
+  margin: 0 12.5vw;
 
 }
 #secondSection {
 
-    min-height: 30vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-shadow: 1px 1px lightgray;
+   min-height: 30vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-shadow: 1px 1px lightgray;
 }
 #secondSection > div > #firstGraphic {
-    position: relative;
-    top: 1vh;
+   position: relative;
+   top: 1vh;
 }
 #secondSection > div > img {
-    max-width: 9vw;
-    min-height: 7vh;
-    position: relative;
-    top: 1vh;
-    margin: 0 auto;
-   
+   max-width: 9vw;
+   min-height: 7vh;
+   position: relative;
+   top: 1vh;
+   margin: 0 auto;
+  
 }
 #secondSection > div {
-    margin: 7.5vh auto;
-    min-width: 50vw;
-    margin-bottom: 0;
-    text-align: center;
-    max-width: 50vw;
-    border: 1px solid lightgray;
-    border-radius: 5%;
-    box-shadow: 1px 1px 3px 3px gray;
-    
+   margin: 7.5vh auto;
+   min-width: 50vw;
+   margin-bottom: 0;
+   text-align: center;
+   max-width: 50vw;
+   border: 1px solid lightgray;
+   border-radius: 5%;
+   box-shadow: 1px 1px 3px 3px gray;
+   
 }
 #secondSection > div > h3 {
-    position: relative;
-    bottom: 2vh;
+   position: relative;
+   bottom: 2vh;
 }
 #secondSection > div > p {
-   margin: 0vh 5vw;
-   min-width: 30vw;
-   position: relative;
-    bottom: 3.5vh;
+  margin: 0vh 5vw;
+  min-width: 30vw;
+  position: relative;
+   bottom: 3.5vh;
 
 }
 footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    min-height: 17.5vh;
-    margin-top: 0vh;
-    background: rgba(50,50,50,.85);
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   min-height: 17.5vh;
+   margin-top: 0vh;
+   background: rgba(50,50,50,.85);
 }
 footer > section {
-   font-size: .85rem;
-    z-index: 3;
-    width: 30vw;
-    height: auto;
+  font-size: .85rem;
+   z-index: 3;
+   width: 30vw;
+   height: auto;
 }
 #leftSideFooter > div {
-  margin-left: 2vw;
+ margin-left: 2vw;
 }
 #leftSideFooter > div > h4 {
-    margin: 1vh 0 auto 0;;
-    color: white;
-    text-shadow: 1px 1px black;
-   bottom: 3vh;
-    position: relative;
-    left: 4vw;
-    
+   margin: 1vh 0 auto 0;;
+   color: white;
+   text-shadow: 1px 1px black;
+  bottom: 3vh;
+   position: relative;
+   left: 4vw;
+   
 }
 #rightSideFooter > h4 {
-    position: relative;
-    right: 4vw;
-    bottom: 1.5vh;
-    color: white;
-    text-shadow: 1px 1px black;
-    min-width: 25vw;
-    margin: 2vh 0;
+   position: relative;
+   right: 4vw;
+   bottom: 1.5vh;
+   color: white;
+   text-shadow: 1px 1px black;
+   min-width: 25vw;
+   margin: 2vh 0;
 
 }
 #flaticon {
-    position: relative;
-    top: 3vh;
-    right: 3vw;
+   position: relative;
+   top: 3vh;
+   right: 3vw;
 }
 #flaticon, #flaticon > div > a {
-    
-    color: white;
-    font-size: .75rem;
+   
+   color: white;
+   font-size: .75rem;
 }
 #footerBottom {
- text-align: center;
-    min-width: 50vw;
-  
+text-align: center;
+   min-width: 50vw;
+ 
 }
 #footerBottom >  ul {
-    list-style-type: none;
-    color: white;
-    text-shadow: 1px 1px black;
-    position: relative;
-   
-    top: 7vh;
-    padding: 0;
+   list-style-type: none;
+   color: white;
+   text-shadow: 1px 1px black;
+   position: relative;
+  
+   top: 7vh;
+   padding: 0;
 }
 #footerBottom > ul > li > a {
-    color: white;
-    font-size: .8rem;
+   color: white;
+   font-size: .8rem;
 }
 #footerBottom > ul > li {
-    display: inline;
-   
+   display: inline;
+  
 }
 @media only screen and (min-width: 320px) and (max-width: 400px) {
-  #headerText {
-      left: 47vw;
+ #headerText {
+     left: 47vw;
+ }
+  #firstSectionGraphic {
+      max-width: 32.5vw;
+      height: auto;
+      left: 4vw;
   }
-   #firstSectionGraphic {
-       max-width: 32.5vw;
-       height: auto;
-       left: 4vw;
+  #secondSection > div {
+ 
+   margin-bottom: 0;
+   min-width: 60vw;
    }
-   #secondSection > div {
-  
-    margin-bottom: 0;
-    min-width: 60vw;
-    }
-    footer {
-        min-height: 20vh;
-    }
-    #footerBottom > ul {
-        top: 10vh;
-    }
-    #footerBottom > ul > li > a {
-      
-        font-size: .8rem;
-    } 
-    #leftSideFooter > div > h4 {
-        bottom: 3vh;
+   footer {
+       min-height: 20vh;
+   }
+   #footerBottom > ul {
+       top: 10vh;
+   }
+   #footerBottom > ul > li > a {
+     
+       font-size: .8rem;
+   } 
+   #leftSideFooter > div > h4 {
+       bottom: 3vh;
 
-    }
-    #rightSideFooter > h4 {
-       top: 3vh;
-    }
-    #flaticon {
-        margin-bottom: 9vh;
-    }
-    #flaticon, #flaticon > div > a {
-        font-size: .6rem;
-    }
-}
+   }
+   #rightSideFooter > h4 {
+      top: 3vh;
+   }
+   #flaticon {
+       margin-bottom: 9vh;
+   }
+   #flaticon, #flaticon > div > a {
+       font-size: .6rem;
+   }
 }
