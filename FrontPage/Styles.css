@@ -83,8 +83,9 @@ nav > #rightsideNav {
    min-width: 60vw;
    position: absolute;
    transform: translate(-50%, -50%);
-   left: 35vw;
+   left: 30vw;
    top: 25.5vh;
+   margin-left: 7vw;
    z-index: 3;
 }
 #headerText {
@@ -93,7 +94,7 @@ nav > #rightsideNav {
    font-size: 1.5rem;
    font-family: garamond;
    text-shadow: 1px 1px black;
-   margin-left: 7vw;
+   margin-left: 5vw;
    position: absolute;
    transform: translate(-50%, -50%);
    left: 31vw;
@@ -232,7 +233,7 @@ footer > section {
 }
 #flaticon {
    position: relative;
-   top: 3vh;
+   top: 2vh;
    right: 3vw;
 }
 #flaticon, #flaticon > div > a {
@@ -251,7 +252,7 @@ text-align: center;
    text-shadow: 1px 1px black;
    position: relative;
   
-   top: 7vh;
+   top: 6vh;
    padding: 0;
 }
 #footerBottom > ul > li > a {
@@ -288,13 +289,15 @@ text-align: center;
    } 
    #leftSideFooter > div > h4 {
        bottom: 3vh;
-
+    
    }
    #rightSideFooter > h4 {
-      top: 3vh;
+      top: 2vh;
+     
    }
    #flaticon {
        margin-bottom: 9vh;
+
    }
    #flaticon, #flaticon > div > a {
        font-size: .7rem;
