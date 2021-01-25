@@ -5,7 +5,7 @@
 header {
      padding: 10vh auto;
      box-shadow: 2px 2px gray;
-    
+     
  }
 nav {
     display: flex;
@@ -14,20 +14,22 @@ nav {
     position: relative;
     top: 0;
     min-height: 10vh;
+
 }
  nav > #leftsideNav {
     
     margin: 5vh 1vw 5vh 2vw;
-    font-size: .9rem;
+    font-size: .75rem;
     min-width: 20vw;
      
 }
 
 nav > #rightsideNav {
-    
-   min-width: 75vw;
+    font-size: .8rem;
+   min-width: 80vw;
+   border: 1px solid red;
 position: relative;
-right: 2vw;
+right: 5vw;
     margin: 4vh 1vw 0 4vw;
 }
 #navList > li {
@@ -35,7 +37,7 @@ right: 2vw;
     border: 1px solid black;
     padding: 2vh 2vw;
     margin: auto 1vw;
-   
+  
     
     position: relative;
     top: 2.5vh;
@@ -53,8 +55,8 @@ right: 2vw;
 }
 #navList {
     list-style-type: none;
-    
-    min-width: 40vw;
+  
+    border: 1px solid pink;
     min-height: 8vh;
     padding: 0;
 }
@@ -79,11 +81,11 @@ right: 2vw;
     font-size: 1.75em;
     font-family: garamond;
     text-shadow: 1px 1px black;
-    min-width: 70vw;
+    min-width: 60vw;
     position: absolute;
     transform: translate(-50%, -50%);
-    left: 40vw;
-    top: 22.5vh;
+    left: 35vw;
+    top: 25.5vh;
     z-index: 3;
 }
 #headerText {
@@ -95,7 +97,7 @@ right: 2vw;
     
     position: absolute;
     transform: translate(-50%, -50%);
-    left: 38vw;
+    left: 46vw;
  
     overflow: hidden;
     top: 40vh;
@@ -113,15 +115,17 @@ main {
     min-height: 50vh;
 }
 #firstSectionTitle {
-    display: flex;
-    justify-content: space-between;
+display: flex;
+justify-content: flex-end;
 }
 #firstSectionTitle > h3 {
     font-size: 1.75rem;
-    top: 0;
-    right: 10vw;
+    top: 9vh;
+    left: 20vw;
     position: relative;
-    max-width: 60vw;
+    transform: translate(-50%, -50%);
+    
+    max-width: 50vw;
     text-shadow: 1px 1px lightgray;
 }
 #firstGraphic {
@@ -154,8 +158,8 @@ main {
    
 }
 #secondSection > div {
+  max-width: 75vw;
   
-    max-width: 50vw;
     text-align: center;
     margin-top: 7.5vh;
     border: 1px solid lightgray;
@@ -168,7 +172,7 @@ main {
     bottom: 2vh;
 }
 #secondSection > div > p {
-   margin: 0vh 5vw 4vh 5vw;
+   margin: 0vh 5vw;
    min-width: 30vw;
    position: relative;
     bottom: 3.5vh;
@@ -189,11 +193,10 @@ footer {
     justify-content: space-evenly;
     min-height: 15vh;
     margin-top: 0vh;
-    
     background: rgba(50,50,50,.85);
 }
 footer > section {
-   
+   font-size: .85rem;
     z-index: 3;
     width: 30vw;
     height: auto;
@@ -202,15 +205,23 @@ footer > section {
   margin-left: 2vw;
 }
 #leftSideFooter > div > h4 {
+    margin: auto 0;
     color: white;
     text-shadow: 1px 1px black;
+    transform: translate(-50%, -50%);
+position: absolute;
+left: 15vw;
 }
 #rightSideFooter > h4 {
+transform: translate(-50%, -50%);
+position: absolute;
+left: 80vw;
+
     color: white;
     text-shadow: 1px 1px black;
-    max-width: 20vw;
-    margin: 0 auto;
-    margin-right: 3vw;
+    min-width: 25vw;
+    margin: auto 0;
+
 }
 
 #footerBottom {
@@ -229,6 +240,7 @@ footer > section {
 }
 #footerBottom > ul > li > a {
     color: white;
+    font-size: .8rem;
 }
 #footerBottom > ul > li {
     display: inline;
