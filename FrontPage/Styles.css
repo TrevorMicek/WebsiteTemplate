@@ -264,8 +264,7 @@ text-align: center;
 }
 @media only screen and (min-width: 320px) and (max-width: 400px) {
  #headerText {
-     left: 41vw;
-     margin-left: 5vw;
+     left: 47vw;
  }
   #firstSectionGraphic {
       max-width: vw;
