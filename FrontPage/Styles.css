@@ -116,6 +116,8 @@ main {
 }
 #firstSectionGraphic {
    position: relative;
+   max-width: 25vw;
+   max-height: auto;
    top: 2vh;
    left: 10vw;
 }
