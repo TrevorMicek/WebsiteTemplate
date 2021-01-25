@@ -233,7 +233,7 @@ footer > section {
 }
 #flaticon {
    position: relative;
-   top: 2vh;
+   top: 1vh;
    right: 3vw;
 }
 #flaticon, #flaticon > div > a {
@@ -266,6 +266,7 @@ text-align: center;
 @media only screen and (min-width: 320px) and (max-width: 400px) {
  #headerText {
      left: 47vw;
+     margin-left: 5vw;
  }
   #firstSectionGraphic {
       max-width: vw;
