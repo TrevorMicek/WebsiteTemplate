@@ -1,7 +1,6 @@
  body {
      margin: 0;
  }
- @media(max-width: 768px) {
 header {
      padding: 10vh auto;
      box-shadow: 2px 2px gray;
@@ -228,4 +227,3 @@ padding: 0;
     
     
 }
- }
