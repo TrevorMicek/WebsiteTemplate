@@ -117,12 +117,9 @@ main {
 }
 #firstSectionGraphic {
    position: relative;
-   max-width: 25vw;
-   max-height: auto;
-   top: 2vh;
-   left: 10vw;
-   padding: 0;
-   margin: 0;
+
+   top: 3vh;
+   left: 16vw;
 }
 #firstSectionTitle {
 display: flex;
@@ -269,8 +266,6 @@ text-align: center;
      margin-left: 5vw;
  }
   #firstSectionGraphic {
-      max-width: vw;
-      height: auto;
       left: 4vw;
   }
   #secondSection > div {
