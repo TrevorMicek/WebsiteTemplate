@@ -19,26 +19,24 @@ nav {
  nav > #leftsideNav {
     
     margin: 5vh 1vw 5vh 2vw;
-    font-size: .75rem;
+    font-size: .725rem;
     min-width: 20vw;
      
 }
 
 nav > #rightsideNav {
     font-size: .8rem;
-   min-width: 80vw;
+   min-width: 70vw;
    
 position: relative;
-right: 5vw;
+right: 2vw;
     margin: 4vh 1vw 0 4vw;
 }
 #navList > li {
     display: inline;
     border: 1px solid black;
-    padding: 2vh 2vw;
-    margin: auto 1vw;
-  
-    
+    padding: 1.5vh 1.5vw;
+    margin: auto .5vw;
     position: relative;
     top: 2.5vh;
     box-shadow: 2.5px 5px lightgray;
