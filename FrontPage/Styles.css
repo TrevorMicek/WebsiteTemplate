@@ -27,7 +27,7 @@ nav {
 nav > #rightsideNav {
     font-size: .8rem;
    min-width: 80vw;
-   border: 1px solid red;
+   
 position: relative;
 right: 5vw;
     margin: 4vh 1vw 0 4vw;
@@ -56,7 +56,7 @@ right: 5vw;
 #navList {
     list-style-type: none;
   
-    border: 1px solid pink;
+    
     min-height: 8vh;
     padding: 0;
 }
