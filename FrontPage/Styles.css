@@ -120,6 +120,8 @@ main {
    max-height: auto;
    top: 2vh;
    left: 10vw;
+   padding: 0;
+   margin: 0;
 }
 #firstSectionTitle {
 display: flex;
