@@ -20,11 +20,11 @@ nav {
     margin: 5vh 1vw 5vh 2vw;
     font-size: .9rem;
     min-width: 20vw;
-      border: 1px solid pink;
+     
 }
 
 nav > #rightsideNav {
-    border: 1px solid pink;
+    
    min-width: 75vw;
 position: relative;
 right: 2vw;
