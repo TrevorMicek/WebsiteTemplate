@@ -18,27 +18,28 @@ nav {
 }
  nav > #leftsideNav {
     
-    margin: 5vh 1vw 5vh 2vw;
-    font-size: .725rem;
-    min-width: 20vw;
-     
+    margin: 5vh 1vw 3vh 2vw;
+    font-size: .9rem;
+    max-width: 15vw;
+    
 }
-
 nav > #rightsideNav {
-    font-size: .8rem;
-   min-width: 70vw;
+    font-size: .9rem;
+    text-align: justify;
    
-position: relative;
-right: 2vw;
-    margin: 4vh 1vw 0 4vw;
+    position: relative;
+    right: 1vw;
+    margin: 0vh 1vw 0 4vw;
 }
 #navList > li {
-    display: inline;
+    text-align: center;
+    display: inline-block;
     border: 1px solid black;
-    padding: 1.5vh 1.5vw;
+    min-width: 10vw;
+    padding: 2vh 1vw;
     margin: auto .5vw;
     position: relative;
-    top: 2.5vh;
+    top: 1vh;
     box-shadow: 2.5px 5px lightgray;
 }
 #navList > li:active {
@@ -95,7 +96,7 @@ right: 2vw;
     
     position: absolute;
     transform: translate(-50%, -50%);
-    left: 46vw;
+    left: 31vw;
  
     overflow: hidden;
     top: 40vh;
@@ -109,12 +110,18 @@ main {
     
 }
 #firstSection {
-   
+   border-bottom: 3px solid lightgray;
+   box-shadow: 0px 2px gray;
     min-height: 50vh;
+}
+#firstSectionGraphic {
+    position: relative;
+    top: 2vh;
+    left: 10vw;
 }
 #firstSectionTitle {
 display: flex;
-justify-content: flex-end;
+justify-content: space-between;
 }
 #firstSectionTitle > h3 {
     font-size: 1.75rem;
@@ -126,12 +133,12 @@ justify-content: flex-end;
     max-width: 50vw;
     text-shadow: 1px 1px lightgray;
 }
-#firstGraphic {
-    position: relative;
-    top: 5vh;
-    left: 0vw;
-    transform: translate(50%, -50%);
+@media only screen and (min-width: 1030px) {
+    #firstSectionTitle > h3 {
+        left: 0vw;
+    }
 }
+
 #firstSectionText {
   
     text-shadow: 1px 1px lightgray;
@@ -141,25 +148,31 @@ justify-content: flex-end;
 
 }
 #secondSection {
-  
+
     min-height: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-shadow: 1px 1px lightgray;
 }
-#secondSection > img {
-      max-width: 9vw;
+#secondSection > div > #firstGraphic {
+    position: relative;
+    top: 1vh;
+}
+#secondSection > div > img {
+    max-width: 9vw;
     min-height: 7vh;
-
+    position: relative;
+    top: 1vh;
     margin: 0 auto;
    
 }
 #secondSection > div {
-  max-width: 75vw;
-  
+    margin: 7.5vh auto;
+    min-width: 50vw;
+    margin-bottom: 0;
     text-align: center;
-    margin-top: 7.5vh;
+    max-width: 50vw;
     border: 1px solid lightgray;
     border-radius: 5%;
     box-shadow: 1px 1px 3px 3px gray;
@@ -174,22 +187,14 @@ justify-content: flex-end;
    min-width: 30vw;
    position: relative;
     bottom: 3.5vh;
-  
 
-}
-#secondSection > div > #firstGraphic, #secondGraphic, #thirdGraphic {
-
-    max-width: 9vw;
-    min-height: 7vh;
-
-    margin: 0 auto;
 }
 footer {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    min-height: 15vh;
+    min-height: 17.5vh;
     margin-top: 0vh;
     background: rgba(50,50,50,.85);
 }
@@ -203,25 +208,34 @@ footer > section {
   margin-left: 2vw;
 }
 #leftSideFooter > div > h4 {
-    margin: auto 0;
+    margin: 1vh 0 auto 0;;
     color: white;
     text-shadow: 1px 1px black;
-    transform: translate(-50%, -50%);
-position: absolute;
-left: 15vw;
+   bottom: 3vh;
+    position: relative;
+    left: 4vw;
+    
 }
 #rightSideFooter > h4 {
-transform: translate(-50%, -50%);
-position: absolute;
-left: 80vw;
-
+    position: relative;
+    right: 4vw;
+    bottom: 1.5vh;
     color: white;
     text-shadow: 1px 1px black;
     min-width: 25vw;
-    margin: auto 0;
+    margin: 2vh 0;
 
 }
-
+#flaticon {
+    position: relative;
+    top: 3vh;
+    right: 3vw;
+}
+#flaticon, #flaticon > div > a {
+    
+    color: white;
+    font-size: .75rem;
+}
 #footerBottom {
  text-align: center;
     min-width: 50vw;
@@ -233,7 +247,7 @@ left: 80vw;
     text-shadow: 1px 1px black;
     position: relative;
    
-    top: 5vh;
+    top: 7vh;
     padding: 0;
 }
 #footerBottom > ul > li > a {
@@ -242,7 +256,43 @@ left: 80vw;
 }
 #footerBottom > ul > li {
     display: inline;
-    font-size: .9rem;
-    
-    
+   
+}
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+  #headerText {
+      left: 47vw;
+  }
+   #firstSectionGraphic {
+       max-width: 32.5vw;
+       height: auto;
+       left: 4vw;
+   }
+   #secondSection > div {
+  
+    margin-bottom: 0;
+    min-width: 60vw;
+    }
+    footer {
+        min-height: 20vh;
+    }
+    #footerBottom > ul {
+        top: 10vh;
+    }
+    #footerBottom > ul > li > a {
+      
+        font-size: .8rem;
+    } 
+    #leftSideFooter > div > h4 {
+        bottom: 3vh;
+
+    }
+    #rightSideFooter > h4 {
+       top: 3vh;
+    }
+    #flaticon {
+        margin-bottom: 9vh;
+    }
+    #flaticon, #flaticon > div > a {
+        font-size: .6rem;
+    }
 }
