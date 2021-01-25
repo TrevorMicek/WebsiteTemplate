@@ -118,11 +118,10 @@ main {
 }
 #firstSectionTitle > h3 {
     font-size: 1.75rem;
-    top: 5vh;
-    left: 15vw;
+    top: 0;
+    right: 10vw;
     position: relative;
     max-width: 60vw;
-    transform: translate(-50%, -50%);
     text-shadow: 1px 1px lightgray;
 }
 #firstGraphic {
@@ -176,8 +175,8 @@ main {
   
 
 }
-#secondSection > div > div {
-    border: 1px solid red;
+#secondSection > div > #firstGraphic, #secondGraphic, #thirdGraphic {
+
     max-width: 9vw;
     min-height: 7vh;
 
