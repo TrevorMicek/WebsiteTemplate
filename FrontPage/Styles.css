@@ -22,6 +22,7 @@ nav > #leftsideNav {
    font-size: .9rem;
    min-width: 17vw;
    max-width: 17vw;
+   min-height: 7vh;
    
 }
 nav > #rightsideNav {
@@ -41,10 +42,10 @@ nav > #rightsideNav {
    margin: auto .5vw;
    position: relative;
    top: 50%;
-   box-shadow: 2.5px 5px lightgray;
+   box-shadow: 2px 3px lightgray;
 }
 #navList > li:active {
-   top: .4vh;
+   top: .5vh;
    left: .25vw;
    box-shadow: none;
 }
@@ -64,7 +65,7 @@ nav > #rightsideNav {
 
 #headerPictureWrapper {
 
-   min-height: 50vh;
+   min-height: 75vh;
 margin: auto 7.5vw;
    z-index: 1;
 }
@@ -75,7 +76,7 @@ margin: auto 7.5vw;
     right: 0;
     left: 0;
     width: 100%;
-    height: 60vh;
+    height: 75vh;
     background-image: linear-gradient(to top left, #990033, #006666 );
     z-index: -2;
     transform: skewY(6deg);
@@ -88,7 +89,7 @@ margin: auto 7.5vw;
    top: 0;
    left: 0;
    width: 100%;
-   height: 60vh;
+   height: 75vh;
  
     z-index: -1;
     transform: skewY(6deg);
@@ -111,7 +112,7 @@ margin: auto 7.5vw;
    position: relative;
    
    left: 0vw;
-   top: 7vh;
+   top: 10vh;
   
    z-index: 3;
 }
@@ -119,7 +120,7 @@ margin: auto 7.5vw;
    color: white;
    display: inline;
    font-size: 1.25rem;
-   
+   font-weight: normal;
    text-shadow: 1px 1px black;
    
    position: relative;
@@ -127,7 +128,7 @@ margin: auto 7.5vw;
    left: 0%;
 
    overflow: hidden;
-   top: 15vh;
+   top: 17.5vh;
    white-space: nowrap;
    
    z-index: 3;
@@ -227,10 +228,10 @@ justify-content: space-between;
     position: relative;
     transform: rotate(180deg);
     background: #2c3e50;
-    height: 20vh;
+    height: 30vh;
     z-index: -1;
     width: 100vw;
-    top: 17.5vh;
+    top: 30vh;
 }
 #wave {
     
@@ -270,7 +271,7 @@ border-radius: 100% 50%;
    flex-direction: row;
    align-items: center;
    justify-content: space-evenly;
-   min-height: 17.5vh;
+   min-height: 30vh;
    margin-top: 0vh;
 
 }
@@ -301,8 +302,8 @@ footer > section {
 }
 #rightSideFooter > h4 {
    position: relative;
-   right: 3vw;
-   bottom: 5vh;
+   right: 4vw;
+   bottom: 4vh;
    color: white;
    text-shadow: 1px 1px black;
    max-width: 20vw;
@@ -312,13 +313,14 @@ footer > section {
 #flaticon {
     max-width: 20vw;
    position: relative;
-   bottom: 2vh;
-   right: 3vw;
+   margin-top: 7.5vh;
+   bottom: 0;
+   right: 0;
 }
 #flaticon, #flaticon > div > a {
    
    color: white;
-   font-size: .65rem;
+   font-size: .7rem;
 }
 #footerBottom {
 text-align: center;
@@ -331,7 +333,7 @@ text-align: center;
    text-shadow: 1px 1px black;
    position: relative;
   
-   top: 6vh;
+   top: 12.5vh;
    padding: 0;
 }
 #footerBottom > ul > li > a {
@@ -356,7 +358,9 @@ text-align: center;
        right: 1vw;
 
    }
-
+   #navlist > li {
+       box-shadow: 1px 2px lightgray;
+   }
    
 
 
@@ -370,8 +374,7 @@ text-align: center;
    }
   
  #container {
-     top: 23vh;
-     min-height: 25vh;
+     top: 32vh;
  }
 #leftSideFooter > div > h4 {
     bottom: 0;
@@ -380,7 +383,7 @@ text-align: center;
 }
 #rightSideFooter > h4 {
     font-size: .95rem;
-    bottom: 5vh;
+    bottom: 4vh;
     right: 3vw;
    display: inline;
    
