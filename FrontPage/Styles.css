@@ -20,23 +20,24 @@ nav > #leftsideNav {
 
    margin: 4vh 1vw 3vh 7vw;
    font-size: .9rem;
-   max-width: 20vw;
+   min-width: 17vw;
+   max-width: 17vw;
    
 }
 nav > #rightsideNav {
    font-size: .9rem;
    text-align: justify;
-  
+   width: 65vw;
    position: relative;
-   right: 1vw;
-   margin: 0vh 7vw 0 4vw;
+   right: 0vw;
+   margin: 0vh 3vw 0 4vw;
 }
 #navList > li {
    text-align: center;
    display: inline-block;
    border: 1px solid black;
    min-width: 10vw;
-   padding: 2vh 1vw;
+   padding: 2vh 1vh;
    margin: auto .5vw;
    position: relative;
    top: 50%;
@@ -220,7 +221,7 @@ justify-content: space-between;
 #thirdSection {
     margin-top: 7.5vh;
     min-height: 50vh;
-    border: 1px solid red;
+    
 }
 #container {
     position: relative;
@@ -342,6 +343,22 @@ text-align: center;
   
 }
 @media only screen and (min-width: 320px) and (max-width: 400px) {
+  nav > #leftsideNav {
+      font-size: .75rem;
+      margin: 3vh 1vw auto 3vw;
+  }
+   nav > #rightsideNav {
+       min-width: 73vw;
+       top: .5vh;
+       font-size: .75rem;
+       margin: 0;
+       position: relative;
+       right: 1vw;
+
+   }
+
+   
+
 
   #firstSectionGraphic {
       left: 4vw;
@@ -351,29 +368,40 @@ text-align: center;
    margin-bottom: 0;
    min-width: 60vw;
    }
-   footer {
-       min-height: 20vh;
-   }
-   #footerBottom > ul {
-       top: 8.5vh;
-   }
-   #footerBottom > ul > li > a {
-     
-       font-size: .8rem;
-   } 
-   #leftSideFooter > div > h4 {
-       bottom: 3vh;
+  
+ #container {
+     top: 23vh;
+     min-height: 25vh;
+ }
+#leftSideFooter > div > h4 {
+    bottom: 0;
+    font-size: .95rem;
+ 
+}
+#rightSideFooter > h4 {
+    font-size: .95rem;
+    bottom: 5vh;
+    right: 3vw;
+   display: inline;
+   
+}
+#flaticon {
+    bottom: 3vh;
+  
+    min-width: 25vw;
+   
+}
+#footerBottom {
+   margin: 0 auto;
+   position: relative;
+   top: 5vh;
+   left: 30vw;
+    transform: translate(-50%, -50%);
+   
+ 
+}
+#footerBottom > ul > li > a {
+    font-size: .7rem;
     
-   }
-   #rightSideFooter > h4 {
-      top: 2vh;
-     
-   }
-   #flaticon {
-       margin-bottom: 9vh;
-
-   }
-   #flaticon, #flaticon > div > a {
-       font-size: .7rem;
-   }
+}
 }
