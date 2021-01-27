@@ -88,7 +88,7 @@ nav > #rightsideNav {
    margin-right: 7vw;
     position: absolute;
     right: 0;
-    top: 1.5vh;
+    top: 3vh;
     z-index: 2;
     cursor: pointer;
    
@@ -395,7 +395,9 @@ text-align: center;
        right: 1vw;
 
    }
-  
+   #mobileNav {
+    top:1.5vh;
+}
 
    
 
@@ -455,6 +457,7 @@ text-align: center;
         padding: 3vh 1vh;
        
     }
+ 
 }
 @media only screen and (min-width: 968px) {
   #navList > li {
