@@ -6,6 +6,7 @@ function openDropDown() {
     var navbar = document.getElementById("rightsideNav");
     navbar.style.height = "75vh";
     document.getElementById("listItems").style.display = "block";
+    document.getElementById("rightsideNav").style.maxHeight = "65vh";
   
    
 
