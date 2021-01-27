@@ -2,24 +2,39 @@
 <html lang="eng">
   <head>
     <link rel="stylesheet" href="FrontPage/Styles.css">
+    <script src="FrontPage/JS/JavaScript.js" type="text/javascript"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
-    <title>Website Template</title>
+    <title>Website Templates</title>
   </head>
   <body>
     <header>
     <nav>
-      <leftside id="leftsideNav">
+      <div id="leftsideNav">
         Trevor's
         Web Design
-      </leftside>
-      <rightside id="rightsideNav">
+      </div>
+      
+      
+        <div id="rightsideNav">
+          <div id="mobileNav">
+            <div id="hamburger">
+            <img src="Images/HamburgerImg.svg" alt="mobile nav" onClick="openDropDown()">
+          </div>
+          <div id="dropDownWrapper">
+          <div id="dropDown">
+            <img src="Images/X.png" onClick="closeDropDown()">
+          </div>
+          </div>
+        </div>
+          <div id="listItems">
         <ul id="navList">
           <li><a href="index.html">Home</a></li>
           <li><a href="file:///home/tmicek/Desktop/Code/vanillaTemplate/ServicesPage/index.html">Services</a></li>
           <li><a href="file:///home/tmicek/Desktop/Code/vanillaTemplate/AboutPage/index.html">About</a></li>
           <li><a href="file:///home/tmicek/Desktop/Code/vanillaTemplate/ContactPage/index.html">Contact</a></li>
         </ul>
-      </rightside>
+      </div>
+    </div>
     </nav>
     <section id="headerPictureWrapper">
 
@@ -131,5 +146,6 @@
       </section>
     </div>
     </footer>
+    
   </body>
 </html>
