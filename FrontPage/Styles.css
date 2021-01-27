@@ -135,7 +135,7 @@ margin: auto 7.5vw;
 }
 main {
    min-height: 100vh;
-   margin-bottom: 12.5vh;
+   margin-bottom: 10vh;
    
 }
 
@@ -143,20 +143,25 @@ main {
 
    min-height: 50vh;
 }
+#firstSectionWrapper {
+    
+    margin: auto 10vw;
+}
 #firstSectionGraphic {
    position: relative;
-
+    max-width: 22vw;
    top: 3vh;
-   left: 16vw;
+   left: 0vw;
 }
 #firstSectionTitle {
 display: flex;
 justify-content: space-between;
 }
 #firstSectionTitle > h3 {
+    
    font-size: 1.5rem;
    top: 9vh;
-   left: 20vw;
+   left: 25vw;
    position: relative;
    transform: translate(-50%, -50%);
     margin-bottom: 7vh;
@@ -170,11 +175,11 @@ justify-content: space-between;
 }
 
 #firstSectionText {
- 
+ position: relative;
    text-shadow: 1px 1px lightgray;
    font-size: 1.2rem;
    line-height: 3.5vh;
-  margin: 0 12.5vw;
+    left: 0;
 
 }
 #secondSection {
@@ -359,7 +364,8 @@ text-align: center;
 
    }
    #navlist > li {
-       box-shadow: 1px 2px lightgray;
+       box-shadow: 1px 1px lightgray;
+       box-shadow: .5px 2px #f8f8ff;
    }
    
 
