@@ -364,8 +364,8 @@ text-align: center;
 
    }
    #navlist > li {
-       box-shadow: 1px 1px lightgray;
-       box-shadow: .5px 2px #f8f8ff;
+
+       box-shadow: 1px 1.5px #f8f8ff;
    }
    
 
