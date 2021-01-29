@@ -351,6 +351,7 @@ footer {
     position: relative;
     bottom: 2vh;
     right: 6vw;
+  
     max-width: 35vw;
 }
 #flaticon {
@@ -427,7 +428,8 @@ top: 5vh;
 }
 #rightSideFooter {
    top: 3vh;
-    right: 0vw;
+    right: 0;
+
 }
 #rightSideFooter > h4 {
     font-size: .95rem;
