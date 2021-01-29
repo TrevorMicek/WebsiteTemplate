@@ -304,53 +304,60 @@ border-radius: 100% 50%;
   
 }
 #footerContainer {
-    display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: space-evenly;
+    
    min-height: 30vh;
    margin-top: 0vh;
 
 }
+
 footer {
     min-width: 100%;
    
     overflow: hidden;
 }
-footer > section {
-  font-size: .85rem;
-   z-index: 3;
-   width: 30vw;
-   height: auto;
-   
-   
+
+#footerTop {
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+#leftSideFooter {
+    position: relative;
+    top: 3vh;
+    left: 4vw;
 }
 #leftSideFooter > div {
- margin-left: 2vw;
+    margin-left: 1vw;
+    min-width: 15vw;
+
 }
 #leftSideFooter > div > h4 {
    margin: 1vh 0 auto 0;;
    color: white;
    text-shadow: 1px 1px black;
-  bottom: 2vh;
-   position: relative;
-   left: 4vw;
+
    
 }
 #rightSideFooter > h4 {
-   position: relative;
-   right: 4vw;
-   bottom: 4vh;
    color: white;
    text-shadow: 1px 1px black;
    max-width: 20vw;
    margin: 2vh 0;
 
 }
+#rightSideFooter {
+  
+    position: relative;
+    bottom: 2vh;
+    right: 6vw;
+    max-width: 35vw;
+}
 #flaticon {
     max-width: 15vw;
    position: relative;
    margin-top: 7.5vh;
+   
    bottom: 4vh;
    right: 0vw;
 }
@@ -361,16 +368,15 @@ footer > section {
 }
 #footerBottom {
 text-align: center;
-   min-width: 50vw;
- 
+position: relative;
+top: 5vh;
 }
 #footerBottom >  ul {
    list-style-type: none;
    color: white;
    text-shadow: 1px 1px black;
-   position: relative;
-  
-   top: 12.5vh;
+    margin: 0 auto;
+
    padding: 0;
 }
 #footerBottom > ul > li > a {
@@ -415,14 +421,16 @@ text-align: center;
      top: 32vh;
  }
 #leftSideFooter > div > h4 {
-    bottom: 0;
+    margin-top: 8vh;
     font-size: .95rem;
  
 }
+#rightSideFooter {
+   top: 3vh;
+    right: 0vw;
+}
 #rightSideFooter > h4 {
     font-size: .95rem;
-    bottom: 4vh;
-    right: 3vw;
    display: inline;
    
 }
@@ -433,12 +441,7 @@ text-align: center;
    
 }
 #footerBottom {
-   margin: 0 auto;
-   position: relative;
-  
-   
-   
- 
+    top: 7vh;
 }
 #footerBottom > ul > li > a {
     font-size: .7rem;
