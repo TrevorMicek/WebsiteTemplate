@@ -12,6 +12,8 @@ function openDropDown(e) {
 function closeDropDown() {
     document.getElementById("dropDownWrapper").style.display = "none";
     document.getElementById("hamburger").style.display = "inline-block";
-    document.getElementById("rightsideNav").style.height = "auto"
+    document.getElementById("rightsideNav").style.height = "auto";
+   
     document.getElementById("listItems").style.display = "none";
+    
 }
