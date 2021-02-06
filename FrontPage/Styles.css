@@ -14,7 +14,7 @@ nav {
    position: relative;
    top: 0;
    max-height: 13vh;
-   z-index: 4;
+   z-index: 5;
    background-color: #fafafa;
  
 }
@@ -36,20 +36,11 @@ nav > #rightsideNav {
    right: 0vw;
    margin: 0vh 0vw 0 4vw;
 
-  z-index: 4;
+
 
 }
 #navList > li {
-    
    text-align: center;
-   display: block;
-   border: 1px solid black;
-   min-width: 10vw;
-   padding: 2vh 1vh;
-   margin: auto .5vw;
-   position: relative;
-   top: 50%;
-   box-shadow: 1px 2px lightgray;
 }
 #navList > li:active {
    top: .5vh;
@@ -57,10 +48,24 @@ nav > #rightsideNav {
    box-shadow: none;
 }
 #navList > li > a {
-
-   text-decoration: none;
-   color: black;
-   text-shadow: 1px 1px lightgray;
+  position: relative;
+  box-shadow: lightgrey 2px 4px 7px;
+  border: 1px solid black;
+    display: block;
+    min-width: 60vw;
+    padding: 3vh 1vw;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px lightgray;
+}
+#navList > li > a:active {
+    top: .5vh;
+    left: .25vw;
+   
+        -webkit-box-shadow: inset 0px 0px 5px lightgrey;
+        -moz-box-shadow: inset 0px 0px 5px lightgrey;
+        box-shadow: inset 0px 0px 5px lightgrey;
+      
 }
 
 #navList {
@@ -97,7 +102,8 @@ nav > #rightsideNav {
 #listItems {
     padding-top: 3vh;
     background: white;
-    min-width: 60vw;
+   
+
 }
 #headerPictureWrapper {
 
@@ -179,12 +185,12 @@ main {
    min-height: 50vh;
 }
 #firstSectionWrapper {
-    border: 2px solid black;
+
     margin: auto 9vw;
 }
 #firstSectionGraphic {
    position: relative;
-    border: 3px solid rgb(238, 133, 151);
+
     max-width: 22.5vw;
    top: 0vh;
    left: 0vw;
@@ -193,10 +199,10 @@ main {
    max-height: 25vh;
 display: flex;
 justify-content: space-between;
-border: 1px solid red;
+
 }
 #firstSectionTitle > h3 {
-    border: 2px solid blue;
+
    font-size: 1.4rem;
    top: 50%;
    right: 0;
@@ -213,7 +219,7 @@ border: 1px solid red;
 }
 
 #firstSectionText {
-    border: 1px solid darkgreen;
+
  position: relative;
    text-shadow: 1px 1px lightgray;
    font-size: 1.2rem;
@@ -404,10 +410,10 @@ top: 3vh;
       font-size: .75rem;
       min-width: 30vw;
       margin: 3vh 1vw auto 3vw;
-      border: 1px solid red;
+   
   }
    nav > #rightsideNav {
-       border: 1px solid red;
+    
        top: .5vh;
        
        font-size: .75rem;
@@ -485,7 +491,7 @@ top: 3vh;
     #navList > li {
         font-size: 1rem;
         margin-bottom: 4vh;
-        padding: 3vh 1vh;
+
        
     }
  
