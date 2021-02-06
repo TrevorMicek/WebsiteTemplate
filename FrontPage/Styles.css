@@ -49,6 +49,7 @@ nav > #rightsideNav {
    box-shadow: none;
 }
 #navList > li > a {
+    margin: auto 1vw;
   position: relative;
   box-shadow: lightgrey 2px 4px 7px;
   border: 1px solid black;
