@@ -1,14 +1,12 @@
  
-function openDropDown() {
+function openDropDown(e) {
     console.log('here')
     document.getElementById("hamburger").style.display = "none";
     document.getElementById("dropDownWrapper").style.display = "inline-block";
-    var navbar = document.getElementById("rightsideNav");
-    navbar.style.height = "75vh";
-    document.getElementById("listItems").style.display = "block";
-    document.getElementById("rightsideNav").style.maxHeight = "65vh";
-  
-   
+    var listItems = document.getElementById("listItems")
+    listItems.style.display = "block";
+    listItems.style.height = "66vh";
+    document.getElementById("rightsideNav").style.maxHeight = "9vh";
 
 }
 function closeDropDown() {
@@ -16,6 +14,4 @@ function closeDropDown() {
     document.getElementById("hamburger").style.display = "inline-block";
     document.getElementById("rightsideNav").style.height = "auto"
     document.getElementById("listItems").style.display = "none";
-
-
 }
