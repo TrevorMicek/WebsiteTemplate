@@ -41,6 +41,7 @@ nav > #rightsideNav {
 }
 #navList > li {
    text-align: center;
+
 }
 #navList > li:active {
    top: .5vh;
@@ -102,7 +103,7 @@ nav > #rightsideNav {
 #listItems {
     padding-top: 3vh;
     background: white;
-   
+    
 
 }
 #headerPictureWrapper {
@@ -185,12 +186,12 @@ main {
    min-height: 50vh;
 }
 #firstSectionWrapper {
- 
+
     margin: auto 9vw;
 }
 #firstSectionGraphic {
    position: relative;
-  
+
     max-width: 22.5vw;
    top: 0vh;
    left: 0vw;
@@ -202,11 +203,9 @@ justify-content: space-between;
 
 }
 #firstSectionTitle > h3 {
-
+    
    font-size: 1.4rem;
-   top: 50%;
-   right: 0;
-   position: relative;
+margin: auto 0;
    color: #1a1a1a;
    
    max-width: 60vw;
@@ -408,19 +407,11 @@ top: 3vh;
  
     nav > #leftsideNav {
       font-size: .75rem;
-      min-width: 30vw;
+      min-width: 20vw;
       margin: 3vh 1vw auto 3vw;
-
+   
   }
-   nav > #rightsideNav {
-     
-       top: .5vh;
-       
-       font-size: .75rem;
  
-      
-
-   }
 
 
  
@@ -429,7 +420,7 @@ top: 3vh;
 
 }
 #firstSectionTitle > h3 {
-   
+  
     margin-left: 6vw;
 }
 
@@ -443,7 +434,7 @@ top: 3vh;
    margin-bottom: 0;
    min-width: 60vw;
    }
-  
+ 
  #container {
      top: 32vh;
  }
@@ -499,6 +490,26 @@ top: 3vh;
 @media only screen and (min-width: 968px) {
   #navList > li {
       display: inline-block;
+      z-index: 5;
+     
+ 
+   
+  }
+  nav {
+      overflow: hidden;
+  }
+  #navList > li > a {
+    position: relative;
+  
+       box-shadow: lightgrey 2px 4px 7px;
+       border: 1px solid black;
+         display: inline;
+         min-width: 12.5vw;
+         padding: 3vh 1vw;
+  }
+  #listItems {
+      display: inline-block;
+  
   }
   #mobileNav {
       display: none;
