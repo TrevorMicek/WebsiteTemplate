@@ -1,10 +1,11 @@
 body {
     margin: 0;
+    
     font-family: sans-serif, Arial, Helvetica;
 }
+
 header {
-    padding: 10vh auto;
-    
+    background: #fafafa;
 }
 nav {
    display: flex;
@@ -13,15 +14,16 @@ nav {
    position: relative;
    top: 0;
    max-height: 13vh;
-   z-index: 2;
-   background-color: white;
+   z-index: 4;
+   background-color: #fafafa;
+ 
 }
 nav > #leftsideNav {
-
+    color: #212121;
    margin: 4vh 1vw 3vh 7vw;
    font-size: .9rem;
-   min-width: 17vw;
-   max-width: 17vw;
+   min-width: 20vw;
+   max-width: 20vw;
    min-height: 7vh;
    
 }
@@ -29,8 +31,7 @@ nav > #rightsideNav {
    font-size: .9rem;
    background-color: white;
    text-align: justify;
-   max-height:4vh;
-   width: 85vw;
+   height: auto;
    position: relative;
    right: 0vw;
    margin: 0vh 0vw 0 4vw;
@@ -91,9 +92,13 @@ nav > #rightsideNav {
     top: 3vh;
     z-index: 2;
     cursor: pointer;
-   
-}
 
+}
+#listItems {
+    padding-top: 3vh;
+    background: white;
+    min-width: 60vw;
+}
 #headerPictureWrapper {
 
    min-height: 75vh;
@@ -109,7 +114,7 @@ margin: auto 7.5vw;
     width: 100%;
     height: 75vh;
     background-image: linear-gradient(to top left, #990033, #006666 );
-    z-index: -2;
+    z-index: 2;
     transform: skewY(6deg);
     transform-origin: top-right;
 }
@@ -122,33 +127,31 @@ margin: auto 7.5vw;
    width: 100%;
    height: 75vh;
  
-    z-index: -1;
+    z-index: 3;
     transform: skewY(6deg);
     transform-origin: top-right;
 }
 #headerBorder {
-    
     min-height: 50vh;
-    padding-right: 15vw;
-    max-width: 60vw;
-    z-index: 1;
+    max-width: 70vw;
+
 }
 #headerTitle {
-   color: white;
+   color: #fafafa;
    display: inline;
    font-size: 1.6em;
-  
+   
    text-shadow: 1px 1px black;
    min-width: 60vw;
    position: relative;
    
    left: 0vw;
    top: 10vh;
+  z-index: 4;
   
-   z-index: 1;
 }
 #headerText {
-   color: white;
+   color: #ECECEC;
    display: inline;
    font-size: 1.25rem;
    font-weight: normal;
@@ -162,12 +165,13 @@ margin: auto 7.5vw;
    top: 17.5vh;
    white-space: nowrap;
    
-   z-index: 1;
+   z-index: 4;
 }
 main {
    min-height: 100vh;
    margin-bottom: 10vh;
-   
+   background: #fafafa;
+
 }
 
 #firstSection {
@@ -175,29 +179,31 @@ main {
    min-height: 50vh;
 }
 #firstSectionWrapper {
-    
-    margin: auto 10vw;
+    border: 2px solid black;
+    margin: auto 9vw;
 }
 #firstSectionGraphic {
    position: relative;
-    
-    max-width: 30vw;
-   top: 3vh;
+    border: 3px solid rgb(238, 133, 151);
+    max-width: 22.5vw;
+   top: 0vh;
    left: 0vw;
 }
 #firstSectionTitle {
+   
 display: flex;
 justify-content: space-between;
+border: 1px solid red;
 }
 #firstSectionTitle > h3 {
-    
-   font-size: 1.5rem;
-   top: 9vh;
-   left: 25vw;
+    border: 2px solid blue;
+   font-size: 1.4rem;
+   top: 50%;
+   right: 0;
    position: relative;
-   transform: translate(-50%, -50%);
-    margin-bottom: 7vh;
-   max-width: 50vw;
+   color: #1a1a1a;
+   
+   max-width: 60vw;
    text-shadow: 1px 1px lightgray;
 }
 @media only screen and (min-width: 1030px) {
@@ -207,12 +213,14 @@ justify-content: space-between;
 }
 
 #firstSectionText {
+    border: 1px solid darkgreen;
  position: relative;
    text-shadow: 1px 1px lightgray;
    font-size: 1.2rem;
    line-height: 3.5vh;
     left: 0;
-
+    margin-top: 7vh;
+    color: #1a1a1a;
 }
 #secondSection {
 
@@ -225,6 +233,7 @@ justify-content: space-between;
 #secondSection > div > #firstGraphic {
    position: relative;
    top: 1vh;
+
 }
 #secondSection > div > img {
    max-width: 9vw;
@@ -232,7 +241,6 @@ justify-content: space-between;
    position: relative;
    top: 1vh;
    margin: 0 auto;
-  
 }
 #secondSection > div {
    margin: 7.5vh auto;
@@ -242,14 +250,16 @@ justify-content: space-between;
    max-width: 50vw;
    border: 1px solid lightgray;
    border-radius: 5%;
-   box-shadow: 1px 1px 3px 3px gray;
-   
+   box-shadow: 1px 1px 8px 2px gray;
+   background: white;
 }
 #secondSection > div > h3 {
    position: relative;
    bottom: 2vh;
+   color: #1a1a1a;
 }
 #secondSection > div > p {
+    color: #1a1a1a;
   margin: 0vh 5vw;
   min-width: 30vw;
   position: relative;
@@ -342,7 +352,7 @@ footer {
 #rightSideFooter > h4 {
    color: white;
    text-shadow: 1px 1px black;
-   max-width: 20vw;
+  
    margin: 2vh 0;
 
 }
@@ -351,11 +361,11 @@ footer {
     position: relative;
     bottom: 2vh;
     right: 6vw;
-  
-    max-width: 35vw;
+    min-width: 10vw;
+    max-width: 25vw;
 }
 #flaticon {
-    max-width: 15vw;
+    max-width: 20vw;
    position: relative;
    margin-top: 7.5vh;
    
@@ -370,7 +380,7 @@ footer {
 #footerBottom {
 text-align: center;
 position: relative;
-top: 5vh;
+top: 3vh;
 }
 #footerBottom >  ul {
    list-style-type: none;
@@ -389,29 +399,39 @@ top: 5vh;
   
 }
 @media only screen and (min-width: 320px) and (max-width: 450px) {
-  nav > #leftsideNav {
+ 
+    nav > #leftsideNav {
       font-size: .75rem;
+      min-width: 30vw;
       margin: 3vh 1vw auto 3vw;
+      border: 1px solid red;
   }
    nav > #rightsideNav {
-       min-width: 73vw;
+       border: 1px solid red;
+       top: .5vh;
        
        font-size: .75rem;
-       margin: 0;
-       position: relative;
-       right: 1vw;
+ 
+      
 
    }
+
+
+ 
    #mobileNav {
     top:1.5vh;
-}
 
+}
+#firstSectionTitle > h3 {
    
+    margin-left: 6vw;
+}
 
 
   #firstSectionGraphic {
-      max-width: 40vw;
+      max-width: 25vw;
   }
+
   #secondSection > div {
  
    margin-bottom: 0;
@@ -428,7 +448,7 @@ top: 5vh;
 }
 #rightSideFooter {
    top: 3vh;
-    right: 0vw;;
+    right: 0vw;
   max-width: 30vw;
 }
 #rightSideFooter > h4 {
