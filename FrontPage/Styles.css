@@ -179,24 +179,24 @@ main {
    min-height: 50vh;
 }
 #firstSectionWrapper {
-
+    border: 2px solid black;
     margin: auto 9vw;
 }
 #firstSectionGraphic {
    position: relative;
-
+    border: 3px solid rgb(238, 133, 151);
     max-width: 22.5vw;
    top: 0vh;
    left: 0vw;
 }
 #firstSectionTitle {
-   
+   max-height: 25vh;
 display: flex;
 justify-content: space-between;
-
+border: 1px solid red;
 }
 #firstSectionTitle > h3 {
- 
+    border: 2px solid blue;
    font-size: 1.4rem;
    top: 50%;
    right: 0;
@@ -213,6 +213,7 @@ justify-content: space-between;
 }
 
 #firstSectionText {
+    border: 1px solid darkgreen;
  position: relative;
    text-shadow: 1px 1px lightgray;
    font-size: 1.2rem;
